@@ -1,0 +1,27 @@
+//@mixin setFontSize($size) {
+//  font-size: $size;
+//}
+//@mixin setBorderRadius($radius) {
+//  border-radius: $radius;
+//}
+@mixin dialogBox($backgroundColor, $width) {
+  width: $width;
+  padding: 10px;
+  background: $backgroundColor;
+  border: 1px solid black;
+  margin: 40px auto;
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: $backgroundColor;
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    border: 1px solid black;
+    transform: translate(-50%) rotate(45deg);
+  }
+}

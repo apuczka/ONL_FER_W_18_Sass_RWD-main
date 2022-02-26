@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss","main.css"],"names":[],"mappings":"AAGM;EACE,UAAA;ACFR","file":"main.css","sourcesContent":[".main-width {\n  ul{\n    li{\n      &:nth-child(1) {\n        color: red;\n      }\n    }\n  }\n}",".main-width ul li:nth-child(1) {\n  color: red;\n}"]}

@@ -1,0 +1,45 @@
+@import "variables";
+
+.main-width {
+  width: $main-width;
+  .menu {
+    background-color: $primary-color;
+
+    li {
+      display: inline-block;
+      padding-left: 10px;
+
+      &:first-child {
+        color: red;
+      }
+
+      &:last-child {
+        color: blue;
+      }
+    }
+  }
+}
+
+header {
+  background-color: $accent-color;
+}
+footer{
+  ul {
+    display: flex;
+
+    li {
+      &:first-child {
+        color: $first-item-color;
+      }
+
+      &:last-child {
+        color: $last-item-color;
+        margin-left: auto;
+      }
+
+      &:hover {
+        color: $last-item-color;
+        cursor: pointer;
+      }
+    }
+  }}
