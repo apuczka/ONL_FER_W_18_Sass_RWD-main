@@ -1,0 +1,24 @@
+@use "sass:list";
+@use "sass:map";
+
+$colors: red, green, blue;
+$widths: (
+        body: 1024 px,
+        header: 100%,
+        section:20ems
+);
+body {
+  background-color: list.nth($colors,1);
+width: map.get($widths,body);
+  margin: 0 auto;
+}
+header {
+  background-color: list.nth($colors,2);
+  width: map.get($widths,header);
+
+
+}
+.main-width {
+  background-color: list.nth($colors,3);
+  width: map.get($widths,header);
+}

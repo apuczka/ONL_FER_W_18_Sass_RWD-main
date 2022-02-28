@@ -1,0 +1,12 @@
+@use "sass:list";
+/*# sourceMappingURL=main.css.map */
+
+$colors:green, yellow, red, brown, pink;
+
+body {
+  color: list.nth($colors,4);
+  background-color: list.nth($colors,2);
+}
+footer {
+  background-color: list.nth($colors,5);
+}

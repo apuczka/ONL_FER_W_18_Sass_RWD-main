@@ -1,0 +1,47 @@
+%clearfix {
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+.test-mixin {
+  @extend %clearfix;
+}
+
+%box {
+  width:100px;
+  height: 100px;
+  border: 1px solid red;
+
+}
+.left_box {
+  @extend %box;
+  float:left;
+}
+.right_box {
+  float: right;
+  @extend %box;
+}
+%box2 {
+  border: 1px solid grey;
+  width: 200px;
+  height: 30px;
+  padding: 10px;
+}
+
+.success {
+  @extend %box2;
+  background: yellow;
+
+
+}
+.error {
+  @extend %box2;
+  background: red;
+}
+.info {
+  @extend %box2;
+  background: cornflowerblue;
+}

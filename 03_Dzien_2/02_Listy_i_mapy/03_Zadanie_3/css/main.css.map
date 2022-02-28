@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss","main.css"],"names":[],"mappings":"AAOA;EACE,YAAA;ACNF","file":"main.css","sourcesContent":["@use \"sass:map\";\n$map: (\n  min-width: 200px,\n  max-width: 1000px\n);\n$widths: map.values($map);\n\n.main-width {\n  width: nth($widths,1);\n}",".main-width {\n  width: 200px;\n}"]}

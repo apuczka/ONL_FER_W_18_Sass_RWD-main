@@ -1,0 +1,10 @@
+@use "sass:map";
+$map: (
+  min-width: 200px,
+  max-width: 1000px
+);
+$widths: map.values($map);
+
+.main-width {
+  width: nth($widths,1);
+}

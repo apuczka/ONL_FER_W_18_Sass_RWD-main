@@ -1,0 +1,39 @@
+.test-mixin::before, .test-mixin::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.right_box, .left_box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+}
+
+.left_box {
+  float: left;
+}
+
+.right_box {
+  float: right;
+}
+
+.info, .error, .success {
+  border: 1px solid grey;
+  width: 200px;
+  height: 30px;
+  padding: 10px;
+}
+
+.success {
+  background: yellow;
+}
+
+.error {
+  background: red;
+}
+
+.info {
+  background: cornflowerblue;
+}
+/*# sourceMappingURL=main.css.map */
