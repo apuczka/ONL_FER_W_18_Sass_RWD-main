@@ -1,0 +1,10 @@
+li {
+  position: relative;
+}
+li:hover::before {
+  content: "jakis tekst";
+  display: block;
+  background-color: pink;
+  position: absolute;
+}
+/*# sourceMappingURL=main.css.map */

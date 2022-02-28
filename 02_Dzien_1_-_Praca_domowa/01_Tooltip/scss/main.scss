@@ -1,0 +1,12 @@
+@import "mixins";
+
+li {
+  position: relative;
+  &:hover {
+    &::before {
+      @include setTooltip("jakis tekst", pink);
+
+    }
+  }
+
+}
