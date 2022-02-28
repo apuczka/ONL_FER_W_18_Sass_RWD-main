@@ -1,0 +1,13 @@
+
+
+@for $i from 1 through 10 {
+  .block_#{$i} {
+    height: 10px;
+    @if($i % 2 == 0) {
+    border: 1px solid orange;margin: 10px;
+  } @else {
+    border:1px solid blue;
+  }
+
+  }
+}

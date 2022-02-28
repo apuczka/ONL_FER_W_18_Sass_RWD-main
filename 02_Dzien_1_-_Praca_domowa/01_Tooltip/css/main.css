@@ -1,0 +1,10 @@
+.list {
+  position: relative;
+}
+.list li:hover::before {
+  content: "jakis tekst";
+  display: block;
+  background: #08a6e4;
+  position: absolute;
+}
+/*# sourceMappingURL=main.css.map */

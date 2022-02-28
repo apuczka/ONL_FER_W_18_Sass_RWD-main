@@ -1,0 +1,8 @@
+@use "sass:color";
+$color: #bada55;
+@for $i from 1 to 5{
+h#{$i} {
+  color: color.scale($color, $lightness: 15%*$i)
+;
+}
+}

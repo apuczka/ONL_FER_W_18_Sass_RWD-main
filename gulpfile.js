@@ -1,5 +1,5 @@
 // Ścieżka do aktualnie wykonywanego zadania
-const entryPath = "01_Dzien_1/04_Mixins/02_Zadanie_2";
+const entryPath = "03_Dzien_2/05_Wstep_do_RWD_i_jednostki/09_Zadanie_9";
 
 const gulp = require("gulp");
 const sass = require("gulp-sass")(require("sass"));
