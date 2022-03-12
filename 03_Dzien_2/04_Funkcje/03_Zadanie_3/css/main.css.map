@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss","main.css"],"names":[],"mappings":"AAIA;EACE,eAAA;ACHF","file":"main.css","sourcesContent":["@use \"sass:math\";\n\n$number: 9;\n\np {\n  font-size: math.percentage($number);\n}\n","p {\n  font-size: 900%;\n}"]}

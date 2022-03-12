@@ -1,5 +1,5 @@
 // Ścieżka do aktualnie wykonywanego zadania
-const entryPath = "01_Dzien_1/04_Mixins/02_Zadanie_2";
+const entryPath = "04_Dzien_2_-_Praca_domowa/01_Wielkosci_naglowkow";
 
 const gulp = require("gulp");
 const sass = require("gulp-sass")(require("sass"));

@@ -1,0 +1,7 @@
+//@use "sass:color";
+
+$color: red;
+
+h1 {
+  color: color($color, $lightness: 80%);
+}

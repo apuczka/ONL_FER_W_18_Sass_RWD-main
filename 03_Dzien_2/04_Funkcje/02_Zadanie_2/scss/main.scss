@@ -1,0 +1,8 @@
+@use "sass:color";
+
+@for $i from 1 through 4 {
+  h#{$i} {
+    color: color.scale(purple, $lightness: 15%*$i);
+  }
+}
+

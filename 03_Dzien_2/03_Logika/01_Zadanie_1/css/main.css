@@ -1,0 +1,36 @@
+h1 {
+  font-size: 5rem;
+  line-height: 1rem;
+  color: #7490dc;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 0.5rem;
+  color: #838bcc;
+}
+
+h3 {
+  font-size: 1.6666666667rem;
+  line-height: 0.3333333333rem;
+  color: #9386bb;
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 0.25rem;
+  color: #a281ab;
+}
+
+h5 {
+  font-size: 1rem;
+  line-height: 0.2rem;
+  color: #b27c9a;
+}
+
+h6 {
+  font-size: 0.8333333333rem;
+  line-height: 0.1666666667rem;
+  color: #c17789;
+}
+/*# sourceMappingURL=main.css.map */

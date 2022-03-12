@@ -1,0 +1,8 @@
+@use "sass:color";
+
+$main-color: #01f1e2;
+$secondary-color: red;
+
+.content {
+  background-color: color.mix($main-color, $secondary-color, $weight:50%);
+}
