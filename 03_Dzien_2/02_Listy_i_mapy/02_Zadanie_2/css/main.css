@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*# sourceMappingURL=main.css.map */
 body {
   color: brown;
@@ -6,5 +7,14 @@ body {
 
 footer {
   background-color: pink;
+=======
+body {
+  background-color: pink;
+  color: purple;
+}
+
+footer {
+  background-color: red;
+>>>>>>> repetition
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss","main.css"],"names":[],"mappings":"AAOA;EACE,aAAA;ACNF","file":"main.css","sourcesContent":["\n\n@function calculatePadding($number1,$number2) {\n  @return $number2+$number1;\n}\n\n\narticle {\n  padding: calculatePadding(5px, 20px);\n}","article {\n  padding: 25px;\n}"]}

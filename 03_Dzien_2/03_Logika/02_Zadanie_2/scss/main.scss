@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @mixin drawItem ($shape, $color) {
   background-color: $color;
   @if $shape == circle {
@@ -16,3 +17,23 @@
   @include drawItem(rectangle, green);
 
 }
+=======
+@mixin drawItem($shape, $background) {
+  @if $shape == circle {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: $background;
+  } @else if $shape == rectangle {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    background: $background;
+  }
+}
+.draw-container {
+  @include drawItem(circle, red)
+}
+
+>>>>>>> repetition

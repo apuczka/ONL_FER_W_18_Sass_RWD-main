@@ -1,6 +1,14 @@
 .draw-container {
+<<<<<<< HEAD
   background-color: green;
   height: 200px;
   width: 200px;
+=======
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: red;
+>>>>>>> repetition
 }
 /*# sourceMappingURL=main.css.map */

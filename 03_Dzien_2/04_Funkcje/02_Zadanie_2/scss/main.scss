@@ -1,4 +1,5 @@
 @use "sass:color";
+<<<<<<< HEAD
 $color: #bada55;
 @for $i from 1 to 5{
 h#{$i} {
@@ -6,3 +7,12 @@ h#{$i} {
 ;
 }
 }
+=======
+
+@for $i from 1 through 4 {
+  h#{$i} {
+    color: color.scale(purple, $lightness: 15%*$i);
+  }
+}
+
+>>>>>>> repetition

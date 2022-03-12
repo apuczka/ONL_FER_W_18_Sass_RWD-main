@@ -1,4 +1,5 @@
 @use "sass:map";
+<<<<<<< HEAD
 $map: (
   min-width: 200px,
   max-width: 1000px
@@ -7,4 +8,14 @@ $widths: map.values($map);
 
 .main-width {
   width: nth($widths,1);
+=======
+@use "sass:list";
+$map: (
+        min-width: 200px,
+        max-width: 1000px
+);
+$width: map.values($map);
+.menu {
+  width: list.nth($width, 1);
+>>>>>>> repetition
 }

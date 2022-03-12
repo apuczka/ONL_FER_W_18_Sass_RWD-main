@@ -1,4 +1,5 @@
 @use "sass:color";
+<<<<<<< HEAD
 $line-height: 3em;
 $font-size:3em;
 
@@ -7,5 +8,16 @@ $font-size:3em;
     font-size: calc($font-size / $var);
     line-height: $line-height/$var;
     color: color.mix(tomato, cornflowerblue, 10px*$var);
+=======
+
+$height-line: 1rem;
+$fontSize: 5rem;
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-size: $fontSize / $i;
+    line-height: $height-line/$i;
+    color: color.mix(tomato, cornflowerblue, 10%*$i);
+>>>>>>> repetition
   }
 }

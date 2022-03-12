@@ -1,0 +1,10 @@
+@mixin setTooltip($text, $color) {
+  content: $text;
+  display: block;
+  background-color: $color;
+
+  position: absolute;
+
+
+  }
+

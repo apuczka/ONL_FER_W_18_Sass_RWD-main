@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":["main.scss","main.css"],"names":[],"mappings":"AAOA;EACE,YAAA;ACNF","file":"main.css","sourcesContent":["@use \"sass:map\";\n$map: (\n  min-width: 200px,\n  max-width: 1000px\n);\n$widths: map.values($map);\n\n.main-width {\n  width: nth($widths,1);\n}",".main-width {\n  width: 200px;\n}"]}
+=======
+{"version":3,"sources":["main.scss","main.css"],"names":[],"mappings":"AAOA;EACE,YAAA;ACNF","file":"main.css","sourcesContent":["@use \"sass:map\";\n@use \"sass:list\";\n$map: (\n        min-width: 200px,\n        max-width: 1000px\n);\n$width: map.values($map);\n.menu {\n  width: list.nth($width, 1);\n}",".menu {\n  width: 200px;\n}"]}
+>>>>>>> repetition

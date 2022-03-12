@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 @for $i from 1 through 10 {
@@ -11,3 +12,22 @@
 
   }
 }
+=======
+@for $i from 1 through 10 {
+
+
+  .block-#{$i} {
+    @if ($i % 2 == 0) {
+      border: 1px solid orange;
+      margin: 10px;
+      height: 100px;
+      width: 100px;
+    } @else {
+      border: 2px dashed blueviolet;
+      height: 100px;
+      width: 100px;
+    }
+  }
+}
+
+>>>>>>> repetition

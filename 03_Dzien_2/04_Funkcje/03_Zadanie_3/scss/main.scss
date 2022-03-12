@@ -1,5 +1,6 @@
 @use "sass:math";
 
+<<<<<<< HEAD
 $number: 0.75;
 
 
@@ -7,3 +8,10 @@ $percentage: percentage($number);
 p {
   font-size: math.percentage($number);
 }
+=======
+$number: 9;
+
+p {
+  font-size: math.percentage($number);
+}
+>>>>>>> repetition

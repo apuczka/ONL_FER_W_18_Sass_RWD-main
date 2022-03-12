@@ -11,6 +11,7 @@
 }
 
 %box {
+<<<<<<< HEAD
   width:100px;
   height: 100px;
   border: 1px solid red;
@@ -44,4 +45,38 @@
 .info {
   @extend %box2;
   background: cornflowerblue;
+=======
+  width: 100px;
+  height: 100px;
+  border: 1px solid mediumvioletred;
+}
+.left_box {
+  @extend %box;
+  float: left;
+
+}
+
+.right_box {
+  @extend %box;
+  float: right;
+}
+%box2 {
+  width: 400px;
+  height: 200px;
+  border: 2px dashed burlywood;
+  padding: 5px;
+  margin: 20px;
+}
+.success {
+  @extend %box2;
+  background-color: green;
+}
+.error {
+  @extend %box2;
+  background-color: #FF6347;
+}
+.info {
+  @extend %box2;
+  background-color: cornflowerblue;
+>>>>>>> repetition
 }

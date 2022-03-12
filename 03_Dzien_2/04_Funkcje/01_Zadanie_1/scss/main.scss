@@ -1,3 +1,13 @@
+<<<<<<< HEAD
 @use "sass:color";
 
 $color:
+=======
+//@use "sass:color";
+
+$color: red;
+
+h1 {
+  color: color($color, $lightness: 80%);
+}
+>>>>>>> repetition
