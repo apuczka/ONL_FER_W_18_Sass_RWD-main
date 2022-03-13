@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.board {
+  height: 100vh;
+  min-height: 800px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background: black url(../images/board-bg.jpg) center bottom;
+}
+.board .zombie {
+  width: 200px;
+  height: 312px;
+  background: url("../images/walkingdead.png") left center no-repeat;
+  background-size: cover;
+  -webkit-animation: zombieWalk 1s steps(10) infinite, zombieHorizontal 4s infinite alternate;
+          animation: zombieWalk 1s steps(10) infinite, zombieHorizontal 4s infinite alternate;
+  margin-left: 345px;
+}
+
+@-webkit-keyframes zombieWalk {
+  100% {
+    background-position: -2000px;
+  }
+}
+
+@keyframes zombieWalk {
+  100% {
+    background-position: -2000px;
+  }
+}
+@-webkit-keyframes zombieHorizontal {
+  100% {
+    margin-left: 100%;
+  }
+}
+@keyframes zombieHorizontal {
+  100% {
+    margin-left: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

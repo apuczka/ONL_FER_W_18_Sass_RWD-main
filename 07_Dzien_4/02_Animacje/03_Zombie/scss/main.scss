@@ -12,7 +12,27 @@ body {
   background: rgb(0, 0, 0) url(../images/board-bg.jpg) center bottom;
 
   .zombie {
+  width: 200px;
+    height: 312px;
+    background: url("../images/walkingdead.png") left center no-repeat;
 
+    background-size: cover;
+    //background-position: 0 0;
+    animation: zombieWalk 1s steps(10) infinite, zombieHorizontal 4s infinite alternate;
+    margin-left: 345px;
   }
 }
 
+@keyframes zombieWalk {
+
+  100% {
+    background-position: -2000px ;
+  }
+
+}
+@keyframes zombieHorizontal {
+  100% {
+    margin-left: 100% ;
+  }
+
+}

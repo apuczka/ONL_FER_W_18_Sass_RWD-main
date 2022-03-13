@@ -1,0 +1,38 @@
+//@media (max-width: 400px) {
+//  body {
+//    background-color: lawngreen;
+//  }
+//};
+//@media (min-width: 401px) and (max-width: 800px) {
+//  body {
+//    background-color: violet;
+//  }
+//}
+//@media (min-width: 800px) {
+//  body {
+//    background-color: orange;
+//  }
+//}
+//
+
+@mixin  tablet {
+  @media (min-width: 400px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: 800px) {
+    @content;
+  }
+
+}
+body {
+  background-color: green;
+  @include tablet{
+    background-color: blueviolet;
+  }
+  @include desktop {
+    background-color: orange;
+  }
+}
+

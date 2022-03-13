@@ -1,0 +1,9 @@
+.one-image-bg {
+  max-width: 900px;
+  height: 50vh;
+  border: 5px solid pink;
+  background-image: url("../images/rabbit.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+/*# sourceMappingURL=main.css.map */

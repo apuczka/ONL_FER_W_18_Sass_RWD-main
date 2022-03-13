@@ -1,0 +1,7 @@
+input {
+  color: red;
+}
+input ::-webkit-input-placeholder, input::-ms-input-placeholder, input::placeholder {
+  color: #bada55;
+}
+/*# sourceMappingURL=main.css.map */

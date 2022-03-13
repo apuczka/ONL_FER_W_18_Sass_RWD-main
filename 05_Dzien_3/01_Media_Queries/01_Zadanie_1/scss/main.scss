@@ -1,0 +1,40 @@
+//@media (max-width: 420px) {
+//  body {
+//    background-color: yellow;
+//
+//}
+//}
+//@media (min-width: 420px) and ( max-width: 768px) {
+//  body {
+//    background-color: blue;
+//  }
+//}
+@mixin tablet () {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}
+body {
+  background-color: yellow;
+  @include tablet{
+    background-color: blue;
+  }
+  @include desktop {
+    background-color: red;
+  }
+  h1 {
+    color: red;
+    @include tablet {
+      background-color: green;
+    }
+    @include desktop {
+
+    }
+  }
+}

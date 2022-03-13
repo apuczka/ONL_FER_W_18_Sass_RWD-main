@@ -1,0 +1,26 @@
+@import "reset";
+@import "grid";
+
+header {
+  background-color: mediumpurple;
+  height: 200px;
+}
+footer {
+  background-color: blue;
+  height: 200px;
+}
+aside {
+  .left-sidebar {
+
+  }
+  .right-sidebar {
+    background-color: blue;
+    height: 500px;
+  }
+
+
+  main {
+    background-color: yellow;
+    height: 500px;
+  }
+}

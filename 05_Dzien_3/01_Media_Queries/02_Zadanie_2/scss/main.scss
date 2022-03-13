@@ -1,0 +1,18 @@
+@mixin placeholderColor ($color){
+  ::-webkit-input-placeholder {
+    color: $color;
+  }
+  &::-ms-input-placeholder{
+    color: $color;
+  }
+  &::placeholder {
+    color: $color;
+  }
+}
+input, textarea {
+  color: red;
+  //::placeholder {
+  //  color: blue;
+  //}
+  @include placeholderColor(#bada55);
+}

@@ -32,6 +32,7 @@
   left: 0;
   top: 0;
   z-index: 2;
+  animation: goRacket 1s forwards linear, fly1 ;
 
   span {
     display: block;
@@ -40,6 +41,8 @@
     height: 150px;
     position: relative;
     z-index: 1;
+
+
   }
 
   &.fly {
@@ -53,12 +56,25 @@
       left: 50%;
       top: 87%;
       transform: translate(-50%, 0);
-      animation: fire 0.1s 0s infinite alternate;
+      animation: fire 0.1s 0s linear infinite alternate;
       transform-origin: 50% 0;
       z-index: 0;
     }
   }
 }
+@keyframes goRacket {
+  0% {
+    transform: rotate(90deg);
+  }
+  100% {
+    left: 150px ;
+    top: 100px;
+    transform: rotate(130deg);
+  }
+
+}
+
+
 
 .planet1 {
   position: absolute;

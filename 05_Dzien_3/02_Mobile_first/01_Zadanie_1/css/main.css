@@ -1,0 +1,39 @@
+body {
+  color: white;
+}
+
+@media (min-width: 37.5em) {
+  .container {
+    display: flex;
+  }
+}
+.container .sidebar {
+  background-color: darkgray;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  padding: 1em;
+}
+@media (min-width: 37.5em) {
+  .container .sidebar {
+    margin: 0;
+  }
+}
+.container section {
+  background-color: cornflowerblue;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  padding: 1em;
+}
+@media (min-width: 37.5em) {
+  .container section {
+    margin: 0;
+    flex-grow: 1;
+  }
+}
+/*# sourceMappingURL=main.css.map */

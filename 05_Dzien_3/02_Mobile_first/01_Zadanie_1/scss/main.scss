@@ -1,0 +1,42 @@
+@mixin tablet {
+  @media (min-width: 37.5em) {
+    @content;
+  }
+}
+
+
+
+body {
+  color: white;
+}
+.container {
+  @include tablet {
+    display: flex;
+  }
+  .sidebar{
+    background-color: darkgray;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    padding: 1em;
+    @include tablet {
+      margin: 0;
+    }
+  }
+  section {
+    background-color: cornflowerblue;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    padding: 1em;
+    @include tablet {
+      margin: 0;
+      flex-grow: 1;
+
+    }
+  }
+}

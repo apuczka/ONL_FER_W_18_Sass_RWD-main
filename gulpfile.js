@@ -1,9 +1,5 @@
 // Ścieżka do aktualnie wykonywanego zadania
-<<<<<<< HEAD
-const entryPath = "03_Dzien_2/05_Wstep_do_RWD_i_jednostki/09_Zadanie_9";
-=======
-const entryPath = "04_Dzien_2_-_Praca_domowa/01_Wielkosci_naglowkow";
->>>>>>> repetition
+const entryPath = "07_Dzien_4/02_Animacje/04_Rakieta";
 
 const gulp = require("gulp");
 const sass = require("gulp-sass")(require("sass"));

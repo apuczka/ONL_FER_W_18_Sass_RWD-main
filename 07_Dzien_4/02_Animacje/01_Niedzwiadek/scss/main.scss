@@ -266,6 +266,10 @@ body {
   right: -100px;
   transform-origin: 10px 50%;
   transform: rotate(20deg);
+  trasition-duration: 2s;
+  &:hover{
+    transform: rotate(0deg);
+  }
 }
 
 .legs {
