@@ -1,5 +1,5 @@
 // Ścieżka do aktualnie wykonywanego zadania
-const entryPath = "07_Dzien_4/02_Animacje/04_Rakieta";
+const entryPath = "06_Dzien_3_-_Praca_domowa";
 
 const gulp = require("gulp");
 const sass = require("gulp-sass")(require("sass"));

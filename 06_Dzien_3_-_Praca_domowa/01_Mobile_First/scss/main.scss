@@ -1,1 +1,27 @@
 // Zadanie 1
+//* {
+//  margin: 0;
+//  padding: 0;
+//  box-sizing: border-box;
+//}
+
+@mixin tablet () {
+  @media (min-width: 450px) and (max-width: 720px) {
+    @content;
+  }
+
+}
+@mixin desktop {
+  @media
+}
+
+
+body {
+  background-color: #00FA9A;
+}
+.block {
+  width: 25%;
+  height: 100vh;
+  border: 1px solid red;
+
+}
