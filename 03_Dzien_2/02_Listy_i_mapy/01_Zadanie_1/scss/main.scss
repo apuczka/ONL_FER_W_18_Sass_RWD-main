@@ -1,7 +1,7 @@
 @use "sass:list";
 @use "sass:map";
 
-<<<<<<< HEAD
+
 $colors: red, green, blue;
 $widths: (
         body: 1024 px,
@@ -23,7 +23,7 @@ header {
   background-color: list.nth($colors,3);
   width: map.get($widths,header);
 }
-=======
+
 
 $colors: #f1c #1a4 #acdeb4;
 $map: (
@@ -45,4 +45,3 @@ header {
   width: map.get($map, width2);
 }
 
->>>>>>> repetition

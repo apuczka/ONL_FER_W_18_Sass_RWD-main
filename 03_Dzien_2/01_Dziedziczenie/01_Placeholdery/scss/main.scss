@@ -11,7 +11,6 @@
 }
 
 %box {
-<<<<<<< HEAD
   width:100px;
   height: 100px;
   border: 1px solid red;
@@ -45,7 +44,6 @@
 .info {
   @extend %box2;
   background: cornflowerblue;
-=======
   width: 100px;
   height: 100px;
   border: 1px solid mediumvioletred;
@@ -78,5 +76,4 @@
 .info {
   @extend %box2;
   background-color: cornflowerblue;
->>>>>>> repetition
 }

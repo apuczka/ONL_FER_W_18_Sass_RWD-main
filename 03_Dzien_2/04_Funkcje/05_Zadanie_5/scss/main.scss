@@ -1,7 +1,7 @@
-<<<<<<< HEAD
-@function calculatePadding($n1,$n2) {
-  @return $n1 + $n2;
-=======
+//<<<<<<< HEAD
+//@function calculatePadding($n1,$n2) {
+//  @return $n1 + $n2;
+//=======
 
 
 @function calculatePadding($number1,$number2) {
@@ -13,3 +13,4 @@ article {
   padding: calculatePadding(5px, 20px);
 >>>>>>> repetition
 }
+

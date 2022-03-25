@@ -1,27 +1,22 @@
-
 .flex-container-column {
   display: flex;
   flex-direction: column;
   height: 100vh;
-
 }
 
 header {
   background-color: pink;
   height: 100px;
-  //display: flex;
-  //position: fixed;
-  //right: 0;
-  //top: 50%;
-  //margin-top: -2.5em;
-
 }
+
 main {
   background-color: #00FA9A;
   height: 1700px;
   overflow: auto;
 }
+
 footer {
   background-color: #08a6e4;
   height: 100px;
 }
+/*# sourceMappingURL=main.css.map */

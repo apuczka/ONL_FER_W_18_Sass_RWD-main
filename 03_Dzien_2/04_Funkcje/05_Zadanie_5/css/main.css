@@ -1,4 +1,12 @@
-article {
-  padding: 25px;
+h1 {
+  font-size: 1;
+}
+
+h2 {
+  font-size: 2;
+}
+
+h3 {
+  font-size: 3;
 }
 /*# sourceMappingURL=main.css.map */

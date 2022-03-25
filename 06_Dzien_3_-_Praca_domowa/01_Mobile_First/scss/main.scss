@@ -1,9 +1,9 @@
 // Zadanie 1
-//* {
-//  margin: 0;
-//  padding: 0;
-//  box-sizing: border-box;
-//}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 @mixin tablet () {
   @media (min-width: 450px) and (max-width: 720px) {
@@ -12,16 +12,65 @@
 
 }
 @mixin desktop {
-  @media
+  @media (min-width: 720px) and (max-width: 1024px){
+    @content;
+  }
+}
+@mixin tv {
+  @media (min-width: 1024px) {
+    @content;
+  }
 }
 
 
 body {
   background-color: #00FA9A;
 }
-.block {
-  width: 25%;
+.blocks {
   height: 100vh;
-  border: 1px solid red;
 
+}
+.block {
+
+  &:last-child {
+    display: none;
+  }
+  height: 25%;
+  border: 1px solid red;
+  max-width: 450px;
+
+  @include tablet {
+    width: calc(25% - 5px);
+    height: 100vh;
+    display: inline-block;
+    &:last-child {
+      display: inline-block;
+    }
+    &:first-child {
+      display: none;
+    }
+  }
+  @include desktop {
+    height: 100vh;
+    width: calc(50vw - 4px);
+    &:first-child {
+      display: inline-block;
+    }
+    &:nth-child(2),
+    &:nth-child(3),
+    &:nth-child(4){
+      display: none;
+    }
+    &:last-child {
+      display: inline-block;
+    }
+  }
+  @include tv {
+    display: inline-block;
+    height: 100vh;
+    width: calc(20% - 4px);
+    &:last-child {
+      display: inline-block;
+    }
+  }
 }
